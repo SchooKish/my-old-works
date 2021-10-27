@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr.Harness</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header class="header container">
+      <img src="./img/logo.png" alt="logo" class="header-logo" />
+      <nav class="header__links">
+        <a href="#catalog" class="header__links-link">каталог</a>
+        <a href="#how" class="header__links-link">преимущества</a>
+        <a href="#how" class="header__links-link">отзывы</a>
+        <a href="#how" class="header__links-link">как заказать</a>
+      </nav>
+    </header>
+
+    <section class="top">
+      <p class="top-subtitle">Женские кожаные портупеи</p>
+      <h1 class="top-title">Dr.Harness</h1>
+      <div class="top-line"></div>
+      <p class="top-text1">Любая модель со скидкой 50%</p>
+      <p class="top-text2">всего за <span>2900р.</span></p>
+      <div class="top__btns">
+        <a href="#catalog" class="top__btns-btn" id="topbtn1">повседневные портупеи</a>
+        <a href="#catalog" class="top__btns-btn" id="topbtn2">эротические портупеи</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about__text container">
+        <h2 class="about__text-title">Хит №1 в мире – модные жеские портупеи</h2>
+        <div class="about__text-line"></div>
+        <p class="about__text-text">
+          Как и все кожаные аксессуары, портупея находится сегодня на пике востребованности в мире
+          моды, даря своей обладательнице внимание и уверенность в себе.
+        </p>
+        <p class="about__text-text">
+          Многообразие видов портупей – это как Характер каждой девушки: от портупеи из тонких
+          ремешков для романтичных и женственных натур, до сложных сплетений из средних и широких -
+          для дерзких и раскрепощенных.
+        </p>
+      </div>
+
+      <div class="swiper my-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="./img/line4.png" alt="gallery" /></div>
+          <div class="swiper-slide"><img src="./img/line2.png" alt="gallery" /></div>
+          <div class="swiper-slide"><img src="./img/line3.png" alt="gallery" /></div>
+          <div class="swiper-slide"><img src="./img/line4.png" alt="gallery" /></div>
+          <div class="swiper-slide"><img src="./img/line5.png" alt="gallery" /></div>
+          <div class="swiper-slide"><img src="./img/line6.png" alt="gallery" /></div>
+          <div class="swiper-slide"><img src="./img/line3.png" alt="gallery" /></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="size">
+      <h2 class="size-title">таблица размеров</h2>
+      <div class="size-line"></div>
+      <div class="size__table-wrap">
+        <table class="size__table">
+          <tbody>
+            <tr>
+              <td>Международный</td>
+              <td>XS</td>
+              <td>S</td>
+              <td>M</td>
+              <td>L</td>
+              <td>XL</td>
+              <td>XXL</td>
+            </tr>
+            <tr>
+              <td>Российский</td>
+              <td>40</td>
+              <td>42</td>
+              <td>44/46</td>
+              <td>48/50</td>
+              <td>52/54</td>
+              <td>56</td>
+            </tr>
+            <tr>
+              <td>Бёдра(см)</td>
+              <td>84-92</td>
+              <td>92-95</td>
+              <td>96-101</td>
+              <td>102-108</td>
+              <td>109-116</td>
+              <td>117-121</td>
+            </tr>
+            <tr>
+              <td>Талия(см)</td>
+              <td>60-65</td>
+              <td>66-69</td>
+              <td>70-77</td>
+              <td>78-85</td>
+              <td>86-95</td>
+              <td>96-102</td>
+            </tr>
+            <tr>
+              <td>Грудь(см)</td>
+              <td>74-80</td>
+              <td>82-85</td>
+              <td>86-93</td>
+              <td>94-102</td>
+              <td>103-113</td>
+              <td>114-119</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="catalog">
+      <a name="catalog"></a>
+      <h2 class="catalog-title">каталог</h2>
+      <div class="catalog-line"></div>
+      <div class="catalog__btns">
+        <button class="catalog__btns-btn" id="catalogbtn1">повседневные портупеи</button>
+        <button class="catalog__btns-btn" id="catalogbtn2">эротические портупеи</button>
+      </div>
+      <div class="catalog__list container" id="catalog1">
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog1.png" alt="Портупея 'Пеппи'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Пеппи"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size1" id="xs1" value="XS" checked />
+              <label for="xs1">XS</label>
+              <input type="radio" name="size1" id="s1" value="S" />
+              <label for="s1">S</label>
+              <input type="radio" name="size1" id="m1" value="M" />
+              <label for="m1">M</label>
+              <input type="radio" name="size1" id="l1" value="L" />
+              <label for="l1">L</label>
+              <input type="radio" name="size1" id="xl1" value="XL" disabled />
+              <label for="xl1">XL</label>
+              <input type="radio" name="size1" id="xxl1" value="XXL" disabled />
+              <label for="xxl1">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color1" id="black1" value="black" />
+              <label for="black1"></label>
+              <input type="radio" name="color1" id="red1" value="red" />
+              <label for="red1"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog2.png" alt="Портупея 'Влади'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Влади"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size2" id="xs2" value="XS" checked />
+              <label for="xs2">XS</label>
+              <input type="radio" name="size2" id="s2" value="S" />
+              <label for="s2">S</label>
+              <input type="radio" name="size2" id="m2" value="M" />
+              <label for="m2">M</label>
+              <input type="radio" name="size2" id="l2" value="L" />
+              <label for="l2">L</label>
+              <input type="radio" name="size2" id="xl2" value="XL" />
+              <label for="xl2">XL</label>
+              <input type="radio" name="size2" id="xxl2" value="XXL" />
+              <label for="xxl2">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color2" id="black2" value="black" />
+              <label for="black2"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog3.png" alt="Портупея 'Джони Миллер'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Джони Миллер"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size3" id="xs3" value="XS" checked />
+              <label for="xs3">XS</label>
+              <input type="radio" name="size3" id="s3" value="S" />
+              <label for="s3">S</label>
+              <input type="radio" name="size3" id="m3" value="M" />
+              <label for="m3">M</label>
+              <input type="radio" name="size3" id="l3" value="L" />
+              <label for="l3">L</label>
+              <input type="radio" name="size3" id="xl3" value="XL" disabled />
+              <label for="xl3">XL</label>
+              <input type="radio" name="size3" id="xxl3" value="XXL" disabled />
+              <label for="xxl3">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color3" id="black3" value="black" />
+              <label for="black3"></label>
+              <input type="radio" name="color3" id="red3" value="red" />
+              <label for="red3"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog1.png" alt="Портупея 'Пеппи'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Пеппи"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size4" id="xs4" value="XS" checked />
+              <label for="xs4">XS</label>
+              <input type="radio" name="size4" id="s4" value="S" />
+              <label for="s4">S</label>
+              <input type="radio" name="size4" id="m4" value="M" />
+              <label for="m4">M</label>
+              <input type="radio" name="size4" id="l4" value="L" />
+              <label for="l4">L</label>
+              <input type="radio" name="size4" id="xl4" value="XL" disabled />
+              <label for="xl4">XL</label>
+              <input type="radio" name="size4" id="xxl4" value="XXL" disabled />
+              <label for="xxl4">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color4" id="black4" value="black" />
+              <label for="black4"></label>
+              <input type="radio" name="color4" id="red4" value="red" />
+              <label for="red4"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog2.png" alt="Портупея 'Влади'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Влади"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size5" id="xs5" value="XS" checked />
+              <label for="xs5">XS</label>
+              <input type="radio" name="size5" id="s5" value="S" />
+              <label for="s5">S</label>
+              <input type="radio" name="size5" id="m5" value="M" />
+              <label for="m5">M</label>
+              <input type="radio" name="size5" id="l5" value="L" />
+              <label for="l5">L</label>
+              <input type="radio" name="size5" id="xl5" value="XL" />
+              <label for="xl5">XL</label>
+              <input type="radio" name="size5" id="xxl5" value="XXL" />
+              <label for="xxl5">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color5" id="black5" value="black" />
+              <label for="black5"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog3.png" alt="Портупея 'Джони Миллер'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Джони Миллер"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size6" id="xs6" value="XS" checked />
+              <label for="xs6">XS</label>
+              <input type="radio" name="size6" id="s6" value="S" />
+              <label for="s6">S</label>
+              <input type="radio" name="size6" id="m6" value="M" />
+              <label for="m6">M</label>
+              <input type="radio" name="size6" id="l6" value="L" />
+              <label for="l6">L</label>
+              <input type="radio" name="size6" id="xl6" value="XL" disabled />
+              <label for="xl6">XL</label>
+              <input type="radio" name="size6" id="xxl6" value="XXL" disabled />
+              <label for="xxl6">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color6" id="black6" value="black" />
+              <label for="black6"></label>
+              <input type="radio" name="color6" id="red6" value="red" />
+              <label for="red6"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog__list container" id="catalog2">
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog3.png" alt="Портупея 'Джони Миллер'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Джони Миллер"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size7" id="xs7" value="XS" checked />
+              <label for="xs7">XS</label>
+              <input type="radio" name="size7" id="s7" value="S" />
+              <label for="s7">S</label>
+              <input type="radio" name="size7" id="m7" value="M" />
+              <label for="m7">M</label>
+              <input type="radio" name="size7" id="l7" value="L" />
+              <label for="l7">L</label>
+              <input type="radio" name="size7" id="xl7" value="XL" disabled />
+              <label for="xl7">XL</label>
+              <input type="radio" name="size7" id="xxl7" value="XXL" disabled />
+              <label for="xxl7">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color7" id="black7" value="black" />
+              <label for="black7"></label>
+              <input type="radio" name="color7" id="red7" value="red" />
+              <label for="red7"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog2.png" alt="Портупея 'Влади'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Влади"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size8" id="xs8" value="XS" checked />
+              <label for="xs8">XS</label>
+              <input type="radio" name="size8" id="s8" value="S" />
+              <label for="s8">S</label>
+              <input type="radio" name="size8" id="m8" value="M" />
+              <label for="m8">M</label>
+              <input type="radio" name="size8" id="l8" value="L" />
+              <label for="l8">L</label>
+              <input type="radio" name="size8" id="xl8" value="XL" />
+              <label for="xl8">XL</label>
+              <input type="radio" name="size8" id="xxl8" value="XXL" />
+              <label for="xxl8">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color8" id="black8" value="black" />
+              <label for="black8"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog1.png" alt="Портупея 'Пеппи'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Пеппи"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size9" id="xs9" value="XS" checked />
+              <label for="xs9">XS</label>
+              <input type="radio" name="size9" id="s9" value="S" />
+              <label for="s9">S</label>
+              <input type="radio" name="size9" id="m9" value="M" />
+              <label for="m9">M</label>
+              <input type="radio" name="size9" id="l9" value="L" />
+              <label for="l9">L</label>
+              <input type="radio" name="size9" id="xl9" value="XL" disabled />
+              <label for="xl9">XL</label>
+              <input type="radio" name="size9" id="xxl9" value="XXL" disabled />
+              <label for="xxl9">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color9" id="black9" value="black" />
+              <label for="black9"></label>
+              <input type="radio" name="color9" id="red9" value="red" />
+              <label for="red9"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog3.png" alt="Портупея 'Джони Миллер'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Джони Миллер"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size10" id="xs10" value="XS" checked />
+              <label for="xs10">XS</label>
+              <input type="radio" name="size10" id="s10" value="S" />
+              <label for="s10">S</label>
+              <input type="radio" name="size10" id="m10" value="M" />
+              <label for="m10">M</label>
+              <input type="radio" name="size10" id="l10" value="L" />
+              <label for="l10">L</label>
+              <input type="radio" name="size10" id="xl10" value="XL" disabled />
+              <label for="xl10">XL</label>
+              <input type="radio" name="size10" id="xxl10" value="XXL" disabled />
+              <label for="xxl10">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color10" id="black10" value="black" />
+              <label for="black10"></label>
+              <input type="radio" name="color10" id="red10" value="red" />
+              <label for="red10"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog2.png" alt="Портупея 'Влади'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Влади"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size11" id="xs11" value="XS" checked />
+              <label for="xs11">XS</label>
+              <input type="radio" name="size11" id="s11" value="S" />
+              <label for="s11">S</label>
+              <input type="radio" name="size11" id="m11" value="M" />
+              <label for="m11">M</label>
+              <input type="radio" name="size11" id="l11" value="L" />
+              <label for="l11">L</label>
+              <input type="radio" name="size11" id="xl11" value="XL" />
+              <label for="xl11">XL</label>
+              <input type="radio" name="size11" id="xxl11" value="XXL" />
+              <label for="xxl11">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color11" id="black11" value="black" />
+              <label for="black11"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+        <div class="catalog__list-card">
+          <div class="catalog__list-card-img">
+            <img src="./img/catalog1.png" alt="Портупея 'Пеппи'" />
+          </div>
+          <div class="catalog__list-card-wrap">
+            <p class="catalog__list-card-name">Портупея "Пеппи"</p>
+            <div class="catalog__list-card-sizes">
+              <input type="radio" name="size12" id="xs12" value="XS" checked />
+              <label for="xs12">XS</label>
+              <input type="radio" name="size12" id="s12" value="S" />
+              <label for="s12">S</label>
+              <input type="radio" name="size12" id="m12" value="M" />
+              <label for="m12">M</label>
+              <input type="radio" name="size12" id="l12" value="L" />
+              <label for="l12">L</label>
+              <input type="radio" name="size12" id="xl12" value="XL" disabled />
+              <label for="xl12">XL</label>
+              <input type="radio" name="size12" id="xxl12" value="XXL" disabled />
+              <label for="xxl12">XXl</label>
+            </div>
+            <div class="catalog__list-card-color">
+              <input type="radio" name="color12" id="black12" value="black" />
+              <label for="black12"></label>
+              <input type="radio" name="color12" id="red12" value="red" />
+              <label for="red12"></label>
+            </div>
+            <div class="catalog__list-card-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <a href="javascript:PopUpShow()" class="catalog__list-card-btn" id="toOrder"
+              >заказать</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog__popup-wrap" id="popup">
+        <div class="catalog__popup">
+          <img src="./img/catalog1.png" alt="" class="catalog__popup-img" />
+          <form action="" class="catalog__popup-form">
+            <p class="catalog__popup-form-name">Портупея "Пеппи"</p>
+            <div class="catalog__popup-form-price">
+              <p>4990 р.</p>
+              <p>2990 р.</p>
+            </div>
+            <select name="select" id="" class="catalog__popup-form-select">
+              <option value="XS">XS</option>
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+              <option value="XL">XL</option>
+              <option value="XXL">XXL</option>
+            </select>
+            <input type="text" placeholder="Введите ваше имя" class="catalog__popup-form-input" />
+            <input type="tel" placeholder="Введите ваш телефон" class="catalog__popup-form-input" />
+            <button class="catalog__popup-form-btn">Оформить заказ</button>
+          </form>
+          <a href="javascript:PopUpHide()" class="catalog__popup-exit">x</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="how">
+      <a name="how"></a>
+      <h2 class="how-title">как заказать?</h2>
+      <div class="how-line"></div>
+      <div class="how__box container">
+        <div class="how__box-circle">
+          <div class="how__box-circle-item"></div>
+          <div class="how__box-circle-item"></div>
+          <div class="how__box-circle-item"></div>
+          <div class="how__box-circle-item"></div>
+        </div>
+        <div class="how__box-underline"></div>
+        <div class="how__box-text">
+          <p class="how__box-text-item">Вы оформляете заказ на нашем сайте</p>
+          <p class="how__box-text-item">Менеджер перезвонит для уточнения деталей заказа</p>
+          <p class="how__box-text-item">В ближайшее время отправляем ваш заказ</p>
+          <p class="how__box-text-item">Вы оплачиваете заказ при получении</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+    <script>
+      $(document).ready(function () {
+        PopUpHide()
+      })
+      function PopUpShow() {
+        $('#popup').show()
+      }
+      function PopUpHide() {
+        $('#popup').hide()
+      }
+    </script>
+    <script>
+      var swiper = new Swiper('.my-swiper', {
+        slidesPerView: 6,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+          delay: 2000,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 0,
+          },
+          1300: {
+            slidesPerView: 5,
+            spaceBetween: 0,
+          },
+          1600: {
+            slidesPerView: 6,
+            spaceBetween: 0,
+          },
+        },
+      })
+    </script>
+  </body>
+</html>

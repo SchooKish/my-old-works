@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="slide1">
+            <nav class="slide1__nav">
+              <a href="#portfolio" class="slide1__nav-link">Портфолио</a>
+              <a href="#contacts" class="slide1__nav-link">Контакты</a>
+            </nav>
+            <div class="slide1__box">
+              <img src="img/photo1.jpg" alt="" class="slide1__box-img" />
+              <div class="slide1__box-info">
+                <h1 class="slide1__box-info-title">Кирилл Школа</h1>
+                <h2 class="slide1__box-info-subtitle">
+                  frontend-DEVELOPER
+                  <br />
+                  JUNIOR
+                </h2>
+                <div class="slide1__box-info-line"></div>
+                <q class="slide1__box-info-text">
+                  A dream doesn’t become reality through magic; it takes sweat, determination, and
+                  hard work. 
+                </q>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide2">
+            <a name="portfolio"></a>
+            <div class="slide2__box">
+              <div class="slide2__box-line"></div>
+              <h2 class="slide2__box-title">Work examples</h2>
+              <div class="slide2__box-line"></div>
+            </div>
+            <div class="slide2__examples">
+              <a href="./works/work1/index.html" class="slide2__examples-link"
+                ><img src="./img/work1.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work2/index.html" class="slide2__examples-link"
+                ><img src="./img/work2.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work3/index.html" class="slide2__examples-link"
+                ><img src="./img/work3.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work4/index.html" class="slide2__examples-link"
+                ><img src="./img/work4.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work5/index.html" class="slide2__examples-link"
+                ><img src="./img/work5.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work6/index.html" class="slide2__examples-link"
+                ><img src="./img/work6.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work7//index.html" class="slide2__examples-link"
+                ><img src="./img/work7.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work8/index.html" class="slide2__examples-link"
+                ><img src="./img/work8.png" alt="" class="slide2__examples-link-img" /></a
+              ><a href="./works/work9/index.html" class="slide2__examples-link"
+                ><img src="./img/work9.png" alt="" class="slide2__examples-link-img"
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="slide2">
+            <a name="contacts"></a>
+            <div class="slide2__box">
+              <div class="slide2__box-line"></div>
+              <h2 class="slide2__box-title">Contacts</h2>
+              <div class="slide2__box-line"></div>
+            </div>
+            <div class="slide2__contacts">
+              <img src="./img/photo2.JPG" alt="" class="slide2__contacts-img" />
+              <div class="slide2__contacts-info">
+                <span class="slide2__contacts-info-wrap"
+                  >e-mail:<a
+                    href="mailto:kishkola.work@gmail.com"
+                    class="slide2__contacts-info-link"
+                    >kishkola.work@gmail.com</a
+                  ></span
+                >
+                <span class="slide2__contacts-info-wrap"
+                  >phone:<a href="tel:+7 (912) 398 53 58" class="slide2__contacts-info-link"
+                    >+7 (912) 398 53 58</a
+                  ></span
+                >
+                <span class="slide2__contacts-info-wrap"
+                  >tg:<a href="https://telegram.im/@KiShkola" class="slide2__contacts-info-link"
+                    >@KiShkola</a
+                  ></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 0,
+        mousewheel: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+      })
+    </script>
+  </body>
+</html>
