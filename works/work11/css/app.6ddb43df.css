@@ -1,0 +1,1 @@
+.message{max-width:1200px;margin:0 auto;color:grey;padding:20px}.message__head{display:flex;letter-spacing:1px}.message__author{font-weight:700;color:brown}.message__link{text-decoration:none}.message__slash{margin:0 2px}.message__body{margin:15px 0}*{margin:0;padding:0;box-sizing:border-box}
